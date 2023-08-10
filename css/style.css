@@ -1,0 +1,405 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  overflow-x: hidden;
+}
+.act{
+  background: #3c515b;
+  color: #fff!important;
+}
+.header{
+  padding: 20px 0;
+}
+.header img {
+  width: 50%;
+}
+.banner {
+  /* background: url("../images/banner_bg.avif"); */
+  /* height: 550px; */
+  padding-bottom: 5rem;
+}
+.slider img{
+  width: 1600px;
+  height: 550px;
+}
+.banner_right {
+  padding: 6rem;
+}
+.banner_right a:hover {
+  text-decoration: none;
+}
+.banner_cont {
+  background-color: #fff;
+  padding: 1rem;
+  box-shadow: 0px 0px 4px #fff;
+  width: 490px;
+}
+.banner_cont h3 {
+  color: #000;
+  font-size: 20px;
+  font-weight: 600;
+}
+.banner_cont p {
+  color: darkgrey !important;
+  font-size: 15px;
+}
+/* .about_left {
+  padding: 5rem;
+} */
+.about_left h1 {
+  color: #fff;
+  font-size: 40px;
+}
+.about_left h5 {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+.about_left a {
+  color: #000;
+  font-size: 16px;
+  background-color: #fff;
+  padding: 15px 30px;
+  border-radius: 5px;
+}
+.about_cards {
+  /* margin-top: -1rem; */
+  padding: 2.5rem;
+}
+.about_card {
+  cursor: pointer;
+  transition: 0.5s all ease-in-out;
+}
+.about_card:hover {
+  transform: translate(0, -20px);
+}
+.about_card h3 {
+  color: #000;
+  font-size: 20px;
+  margin: 2rem 0;
+  font-weight: 600;
+}
+.about_card p {
+  color: #868686;
+  font-size: 17px;
+}
+.about_left p{
+  font-size: 18px;
+  color: #000;
+}
+.about_left h3{
+  color: #252525;
+  font-size: 45px;
+  margin-bottom: 2rem;
+}
+/*======================================*/
+.services {
+  padding: 3rem 0;
+}
+.services a:hover {
+  text-decoration: none;
+}
+.services h2 {
+  color: #000;
+  font-weight: 600;
+  font-size: 30px;
+}
+.serv_card h5 {
+  color: #252525;
+  font-weight: 600;
+}
+.serv_card h5 span {
+  color: #d7713f;
+  float: right;
+  font-size: 20px;
+}
+.serv_icon_card {
+  border: 1px solid lightgrey;
+  padding: 1.7rem;
+}
+/*=================================*/
+.career {
+  /* background: url("../images/career.banner.avif") no-repeat;
+  background-color: #000; */
+  opacity: 0.9;
+  padding: 5rem;
+  text-align: center;
+}
+.career h3{
+  color: #3c515b;
+  text-align: center;
+  font-weight: 600;
+  font-size: 35px;
+  margin-bottom: 3rem;
+}
+.cert_card{
+  box-shadow: 0px 0px 4px #3c515b;
+  padding: 2rem;
+  height: 360px;
+  border-radius: 10px;
+}
+.cert_card p{
+  font-size: 16px;
+  margin: 12px 0;
+  text-align: center;
+}
+/*==================================*/
+.contact {
+  background-color: #3c515b;
+  padding: 4rem;
+}
+.contact a {
+  color: #fff;
+  font-size: 18px;
+}
+.contact p{
+  color: #fff;
+  font-size: 16px;
+}
+.links i {
+  color: #fff;
+  float: right;
+}
+.social i {
+  padding-right: 1.5rem;
+  font-size: 24px;
+}
+.location h3 {
+  color: #fff;
+}
+.copy {
+  height: 75px;
+  background-color: #000;
+}
+.contact h5{
+  color: #fff;
+  text-align: left;
+  margin-bottom: 2rem;
+}
+/*======================INNER_PAGES==========================*/
+
+/*-------SERVIES-------*/
+.banner_text h3 {
+  position: relative;
+  top: -130px;
+  text-align: center;
+  font-size: 50px;
+  color: #fff;
+  font-weight: 600;
+}
+/*----------PRODUCTS-----------*/
+.products_main p{
+  color: #000;
+  text-align: justify;
+}
+.item img{
+  width: 30%;
+  height: 200px;
+  /* border: 2px solid lightgrey; */
+}
+/* .item{
+  box-shadow: 0px 0px 5px darkgrey;
+  padding: 2rem;
+} */
+.our-theme {
+  position: relative;
+  overflow: hidden;
+}
+.owl-carousel{
+  padding: 5rem;
+}
+.our-theme .owl-nav {
+  text-align: center;
+  margin-top: 10px;
+}
+.our-theme .owl-nav i {
+    font-size: 20px;
+    color: #ffffff;
+    background: #042B6C;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled{
+  display: block!important;
+}
+.item a{
+  background-color: #3c515b;
+  color: #fff;
+  padding: 5px 15px;
+  border-radius: 8px;
+  position: relative;
+  top: 12px;
+}
+.owl-carousel .owl-stage-outer{
+  overflow: initial!important;
+}
+/*-------CONTACT------*/
+.enquiry_form{
+  padding: 2rem;
+}
+.enquiry_form h3{
+  color: #3c515b;
+  font-weight: 600;
+  margin-bottom: 3rem;
+  font-size: 25px;
+}
+.form-control{
+  border-top: 0!important;
+  border-left: 0!important;
+  border-right: 0!important;
+  border-bottom: 3px solid #3c515b!important;
+  margin-bottom: 2rem;
+  font-size: 18px!important;
+}
+.enquiry_form button{
+  background-color: #3c515b;
+  padding: 8px 30px;
+  color: #fff;
+  border-radius: 8px;
+}
+.contact_form img{
+  mix-blend-mode: hard-light;
+  margin-top: 3rem;
+}
+
+/*----------------------GROUP OF COMPANIES----------------------*/
+.group{
+  padding: 2rem;
+}
+.group h3{
+  color: #3c515b;
+  text-align: center;
+  margin-bottom: 3rem;
+  font-size: 34px;
+  font-weight: 600;
+}
+.company_card{
+  box-shadow: 0px 0px 8px lightgrey;
+  border-radius: 12px;
+}
+.company_card a:hover{
+  text-decoration: none;
+}
+.company_card {
+  cursor: pointer;
+  transition: 0.5s all ease-in-out;
+}
+.company_card:hover {
+  transform: translate(0, -20px);
+}
+.company_card .com_card{
+  padding: 2rem;
+  height: 180px;
+}
+.company_card .com_card h3{
+  color: #3c515b;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+}
+
+/*-------------------CONSULTANCY SERVICE-----------------*/
+.hse_cards{
+  padding: 4rem;
+}
+.hse_cards h3{
+  text-align: center;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    font-size: 30px;
+}
+.hse_cards h4{
+  font-weight: 600;
+    font-size: 25px;
+    margin: 5px 0;
+}
+.hse-points{
+  box-shadow:0px 0px 2px #3c515b;
+  padding: 1rem;
+}
+.hse-points a{
+  background-color: #252525;
+  color: #fff;
+  padding: 5px 25px;
+  border-radius: 6px;
+}
+.hse-points img{
+  margin-bottom: 1.5rem;
+  width: 204px;
+    height: 218px;
+}
+.mix{
+  mix-blend-mode: hard-light;
+}
+.hse_cards ul{
+  padding-left: 0;
+}
+.hse_cards li{
+  font-size: 16px;
+    color: #000;
+    font-weight: 600;
+    text-align: left;
+}
+
+/*---------------------PRODUCTS-----------------*/
+.manf{
+  padding: 2rem;
+}
+.manf h3{
+  color: #3c515b;
+  margin-bottom: 3rem;
+  font-size: 34px;
+  font-weight: 600;
+}
+.manf p{
+  color: #000;
+  font-weight: 600;
+  font-size: 22px;
+}
+.modal-body li{
+  font-size: 18px;
+}
+
+@media only screen and (max-width:600px) {
+  .cert_card{
+    height: 430px;
+  }
+}
+
+/*--------------------------------------slider------------------------------------*/
+
+        /*jssor slider loading skin double-tail-spin css*/
+        .jssorl-004-double-tail-spin img {
+          animation-name: jssorl-004-double-tail-spin;
+          animation-duration: 1.6s;
+          animation-iteration-count: infinite;
+          animation-timing-function: linear;
+      }
+
+      @keyframes jssorl-004-double-tail-spin {
+          from { transform: rotate(0deg); }
+          to { transform: rotate(360deg); }
+      }
+
+      /*jssor slider bullet skin 031 css*/
+      .jssorb031 {position:absolute;}
+      .jssorb031 .i {position:absolute;cursor:pointer;}
+      .jssorb031 .i .b {fill:#000;fill-opacity:0.6;stroke:#fff;stroke-width:1600;stroke-miterlimit:10;stroke-opacity:0.8;}
+      .jssorb031 .i:hover .b {fill:#fff;fill-opacity:1;stroke:#000;stroke-opacity:1;}
+      .jssorb031 .iav .b {fill:#fff;stroke:#000;stroke-width:1600;fill-opacity:.6;}
+      .jssorb031 .i.idn {opacity:.3;}
+
+      /*jssor slider arrow skin 051 css*/
+      .jssora051 {display:block;position:absolute;cursor:pointer;}
+      .jssora051 .a {fill:none;stroke:#000;stroke-width:360;stroke-miterlimit:10;}
+      .jssora051:hover {opacity:.8;}
+      .jssora051.jssora051dn {opacity:.5;}
+      .jssora051.jssora051ds {opacity:.3;pointer-events:none;}
